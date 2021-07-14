@@ -1,0 +1,65 @@
+body {
+  height: 100vh;
+  background-color: deepskyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@keyframes circle {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes stickRoding {
+  0% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(2);
+  }
+  50%,
+  100% {
+    transform: scaleY(1);
+  }
+}
+.dot {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 20px;
+}
+#dots {
+  display: flex;
+  animation: circle 1.5s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+}
+
+.stick {
+  background-color: white;
+  width: 10px;
+  height: 50px;
+  margin: 5px;
+  animation: stickRoding 1.5s ease-in-out infinite;
+}
+
+.stick:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.stick:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.stick:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.stick:last-child {
+  animation-delay: 0.8s;
+}
+#sticks {
+  display: flex;
+}
