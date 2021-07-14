@@ -1,0 +1,63 @@
+.status-bar {
+  display: flex;
+  /* justify-content: center; */
+  padding: 5px 3px;
+  margin: 50px 0px;
+  align-items: center;
+}
+
+.status-bar__column {
+  width: 50%;
+}
+
+.status-bar__column:first-child i {
+  margin-right: 5px;
+  font-size: 30px;
+}
+
+.status-bar__column:last-child h1 {
+  display: flex;
+  /* font-weight: 5000; */
+  /* font-size: 30px; */
+  /* justify-content: left; */
+}
+
+/* RandomLove */
+.RandomLove {
+  display: flex;
+  justify-content: center;
+}
+.RandomLove div {
+  margin: 20px 20px;
+  font-size: xx-large;
+}
+
+/* button-3 */
+
+.button-3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.button-3__column {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+/* menu-4 */
+.menu-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-4__column {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.menu-4__column div {
+  margin: 0px 30px;
+}
