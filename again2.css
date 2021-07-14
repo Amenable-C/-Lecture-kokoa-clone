@@ -1,0 +1,57 @@
+body {
+  background-color: #f5f5f5;
+}
+h1 {
+  text-align: center;
+}
+
+#bigBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.colorBox {
+  width: 170px;
+  height: 250px;
+  margin: 7px;
+  border: 5px white solid;
+}
+
+#bigBox > div:first-child {
+  background-color: #ff6347;
+}
+
+#bigBox > div:nth-child(2) {
+  background-color: #008080;
+}
+
+#bigBox > div:nth-child(3) {
+  background-color: #deb887;
+}
+
+#bigBox > div:last-child {
+  background-color: #d7bfd7;
+}
+
+.textBox {
+  width: 170px;
+  height: 80px;
+  background-color: white;
+  position: relative;
+  top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.textBox > p:first-child {
+  position: relative;
+  top: 15px;
+  right: -10px;
+}
+
+.textBox > p:last-child {
+  position: relative;
+  top: 16px;
+  right: -10px;
+}
