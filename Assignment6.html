@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="Assignment6.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <!-- status-bar -->
+    <div class="status-bar">
+      <div class="status-bar__column"><i class="fas fa-bars"></i></div>
+      <div class="status-bar__column">
+        <span>library</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-box-open"></i><i></i>
+      </div>
+    </div>
+
+    <!-- search-->
+    <form action="#" method="get" id="search-form">
+      <input name="search" type="text" placeholder="Search books" />
+      <!-- 돋보기 안에 넣고 싶은데 어떻게 해야하지? -->
+    </form>
+
+    <!-- materials -->
+    <ul class="list">
+      <p>Book of the day</p>
+      <li class="list__book">
+        <div class="list__book__img">
+          <i class="fas fa-image fa-8x"></i>
+        </div>
+        <div class="list__book__info">
+          <div class="list__book__info__1st">No Fixed Abode</div>
+          <div class="list__book__info__2nd">Journey Through</div>
+          <div class="list__book__info__3rd">
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="list__book__info__4th">
+            <i class="far fa-file-word"></i>
+          </div>
+          <div class="list__book__info__5th">
+            <i class="fas fa-tags"></i>
+          </div>
+        </div>
+      </li>
+      <p>Top Adventures</p>
+      <li class="list__adventures">
+        <div class="list__adventures__info">
+          <i class="fas fa-image fa-4x"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="list__adventures__info">
+          <i class="fas fa-image fa-4x"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="list__adventures__info">
+          <i class="fas fa-image fa-4x"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </li>
+      <p>Popular authours</p>
+      <li class="list__authours">
+        <div class="list__authours__img">
+          <i class="fas fa-image fa-8x"></i>
+        </div>
+        <div class="list__authours__info">
+          <div class="list__authours__info__1st">
+            George Raymond Richard Martin
+          </div>
+          <div class="list__authours__info__2nd">
+            Modern American science fiction writer, screenwriter, producer and
+            editor, winner of many literary awards.
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <script
+      src="https://kit.fontawesome.com/501fdcff29.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
